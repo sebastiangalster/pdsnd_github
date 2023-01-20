@@ -4,7 +4,7 @@
 20.01.2023
 
 ### Project Title
-Bikeshare
+Bikeshare Data
 
 ### Description
 Data Science Project to gain better understanding in exploring bikeshares data
