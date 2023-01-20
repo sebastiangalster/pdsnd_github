@@ -7,7 +7,7 @@
 Bikeshare Data
 
 ### Description
-Data Science Project to gain better understanding in exploring bikeshares data
+Data Science Project to gain better understanding in exploring bikeshares data in chichago, new york city and washington
 
 ### Files used
 chichago.csv
