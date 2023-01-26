@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-# list of available months
+# list of available months january to june 
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 
 def get_filters():
@@ -19,7 +19,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington) and make input case insensitiv
+    # get user input for city (chicago, new york city, washington) + make input case insensitiv
     city = input("Please type in the city you want to check? ").lower()
 
     # check if the input meets the available values to screen
@@ -225,7 +225,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
         
-        # call functions
+        # call all functions
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
